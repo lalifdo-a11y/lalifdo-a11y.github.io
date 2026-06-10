@@ -487,9 +487,11 @@ img {
     box-shadow: var(--card-shadow);
 }
 
-.profile-svg-placeholder {
+.profile-image {
     width: 100%;
-    height: auto;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    object-position: center 15%;
     background-color: var(--bg-secondary);
     border-radius: 8px;
     display: block;

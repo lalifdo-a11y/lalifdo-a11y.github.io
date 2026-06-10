@@ -488,13 +488,16 @@ img {
 }
 
 .profile-image {
-    width: 100%;
-    aspect-ratio: 3/4;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
     object-fit: cover;
-    object-position: center 15%;
+    object-position: center 10%;
     background-color: var(--bg-secondary);
-    border-radius: 8px;
+    border-radius: 50%;
+    border: 3px solid var(--border-color);
     display: block;
+    transition: var(--theme-transition);
 }
 
 .profile-info {
